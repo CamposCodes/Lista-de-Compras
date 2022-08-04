@@ -92,3 +92,38 @@ ul{
 .bought{
     text-decoration:line-through;
 }
+
+/* tela de inicio - strat window */
+.start__window{
+    margin-top: 100px;
+    background-color: #F18F01;
+    position:  absolute;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3%;
+    height: 80vh;
+    width: 80vw;
+    box-shadow: 10px 10px 18px rgba(255, 255, 255, 0.543);
+}
+.bottom__start__window{
+    margin-top: 100px;
+    text-align: center;
+}
+#button__start{
+    border-radius: 5px;
+    height: 60px;
+    box-shadow: 4px 4px 10px #b971059c;
+    font-family: fontX;
+    margin-top: 5px;
+}
+#button__start:hover{
+    color: #006E90;
+    background-color: black; 
+}
+#assinatura{
+    margin-top: 50px;
+    font-family: fontX;
+}
+#assinatura:hover{
+    color: #006E90;
+}
