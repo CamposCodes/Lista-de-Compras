@@ -18,3 +18,18 @@ body{
     box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.57);
     border-radius: 5px;
 }
+#input__name{
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    font-family: fontX;
+}
+#input__num{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    font-family: fontX;
+}
