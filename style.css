@@ -68,3 +68,24 @@ p{
     text-align: center;
     font-family: fontX;
 }
+/* LISTA E ITEMS DA LISTA */
+li{   
+    width: auto;
+    border-radius: 5px;
+    background-color: #ADCAD6;
+    font-family: fontX;
+    list-style-type: none;
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+    margin-right: 30px;
+    padding: 2px;
+    object-fit: fill;
+    
+}
+ul{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #0581a6;
+    text-align: center;
+    object-fit: fill;
+}
