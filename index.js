@@ -1,47 +1,47 @@
 //entradas - inputs
-let entradaNome = document.querySelector("#input__name");
-let entradaNum = document.querySelector("#input__num");
+let inputName = document.querySelector("#input__name");
+let inputNumber = document.querySelector("#input__num");
 // botoes - buttons
-let botao = document.querySelector("#button__add");
-let botaoVer = document.querySelector("#button__view");
+let buttonAdd = document.querySelector("#button__add");
+let buttonView = document.querySelector("#button__view");
 // listas - list
-let lista = document.querySelector("#list");
+let listItem = document.querySelector("#list");
 let list = document.querySelector(".listItem");
 
-botao.addEventListener("click",adicionar)
+buttonAdd.addEventListener("click",add)
 
-function adicionar(){
-    let textoItem1 = entradaNome.value;
-    let textoItem2 = entradaNum.value;
+function add(){
+    let nameItem = inputName.value;
+    let number = inputNumber.value;
 
-    var novoLi = document.createElement("li");
-    novoLi.textContent = textoItem1 + ", " + textoItem2 + "x";
+    var newLi = document.createElement("li");
+    newLi.textContent = nameItem + ", " + number + "x";
 
-    if( textoItem1 != "" && textoItem2 != ""){
-        if(textoItem2 <= 0){
+    if( nameItem != "" && number != ""){
+        if(number <= 0){
             window.alert("ERRO: quantidade inválida !")    
         }
         else{
-            lista.appendChild(novoLi);
+            listItem.appendChild(newLi);
         }
     }
     else{
         window.alert("ERRO: Algum dado está incompleto !");
     }
 
-    novoLi.addEventListener("click",comprar);    
+    newLi.addEventListener("click",buy);    
     
-    entradaNome.value = "";
-    entradaNum.value = "";
-    entradaNome.focus();
-    entradaNum.focus();
+    inputName.value = "";
+    inputNumber.value = "";
+    inputName.focus();
+    inputNumber.focus();
 }
 
-function comprar() {
-    if(this.classList.contains("comprado")){
-        this.classList.remove("comprado");
+function buy() {
+    if(this.classList.contains("bought")){
+        this.classList.remove("bought");
     }
     else {
-        this.classList.add("comprado");
+        this.classList.add("bought");
     }
 }

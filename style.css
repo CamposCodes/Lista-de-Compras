@@ -89,3 +89,6 @@ ul{
     text-align: center;
     object-fit: fill;
 }
+.bought{
+    text-decoration:line-through;
+}
