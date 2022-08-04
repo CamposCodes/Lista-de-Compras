@@ -7,6 +7,14 @@ let buttonView = document.querySelector("#button__view");
 // listas - list
 let listItem = document.querySelector("#list");
 let list = document.querySelector(".listItem");
+// tela de inicio - start Window
+let buttonStart = document.querySelector("#button__start")
+let screenStart = document.querySelector(".start__window")
+
+buttonStart.addEventListener("click", () => {
+    screenStart.style.display = "none";
+});
+
 
 buttonAdd.addEventListener("click",add)
 
