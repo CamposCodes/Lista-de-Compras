@@ -33,3 +33,28 @@ body{
     text-align: center;
     font-family: fontX;
 }
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+#button__add{
+    border-radius: 5px;
+    height: 30px;
+    box-shadow: 4px 4px 10px #b971059c;
+    font-family: fontX;
+}
+#button__add:hover{
+    color: #006E90;
+    background-color: black; 
+}
+#button__view{
+    border-radius: 5px;
+    height: 30px;
+    box-shadow: 4px 4px 10px #b971059c;
+    font-family: fontX;
+    margin-top: 5px;
+}
+#button__view:hover{
+    color: #006E90;
+    background-color: black; 
+}
