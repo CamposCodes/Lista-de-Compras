@@ -58,3 +58,13 @@ body{
     color: #006E90;
     background-color: black; 
 }
+
+/* TITULOS E PARAGRAFOS */
+h1{
+    font-family: fontX;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.399);
+}
+p{
+    text-align: center;
+    font-family: fontX;
+}
