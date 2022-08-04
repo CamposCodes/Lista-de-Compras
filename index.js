@@ -45,3 +45,14 @@ function buy() {
         this.classList.add("bought");
     }
 }
+
+// botão ver lista
+
+list.style.display = "none";
+buttonView.addEventListener("click", () =>{
+    if(list.style. display == "none"){
+        list.style.display = "flex";
+    }else{
+        list.style.display = "none";
+    }
+})
