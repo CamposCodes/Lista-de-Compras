@@ -2,3 +2,19 @@
     font-family: fontX;
     src: url(./font/x.ttf);
 }
+body{
+    margin: 5%;
+    background-color:#006E90;
+}
+.all{
+    background-color: #F18F01;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4%;
+    height: auto;
+    padding: 5%;
+    justify-content: center;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.57);
+    border-radius: 5px;
+}
